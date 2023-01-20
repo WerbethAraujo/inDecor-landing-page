@@ -1,1 +1,1 @@
-# my-first-landing-page
+# inDecor-landing-page
