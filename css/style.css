@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #eb1ccc;
+  --secundary-color: #95999a;
+  --text-white: #fff;
+  --text-black: #000;
+  --text-gray: #5d5d5d;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* sessão do header  */
+
+.event-description {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../img/hrz-5.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: var(--text-white);
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* disclaimer da pagina  */
+
+.disclaimer h2,
+.disclaimer .event-date {
+  color: var(--primary-color);
+}
+
+.disclaimer .event-date {
+  font-weight: bold;
+}
+
+.disclaimer h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+.disclaimer .about-disclaimer {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 350px;
+  margin-bottom: 1em;
+}
+
+.disclaimer p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+/* formulario de incrição da pagina  */
+
+.subscription-form {
+  background-color: var(--secundary-color);
+  padding: 2em;
+  max-width: 22%;
+}
+
+.subscription-form p {
+  font-size: 1.5em;
+  color: var(--text-black);
+  margin-bottom: 1em;
+}
+
+.subscription-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+
+.subscription-form .form-group label {
+  color: var(--text-gray);
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+.subscription-form .form-group input,
+.subscription-form .form-group select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  opacity: 0.8;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
