@@ -103,3 +103,198 @@
 .btn:hover {
   opacity: 1;
 }
+
+/* section benefits  */
+
+.benefts-section h2 {
+  background-color: var(--secundary-color);
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
+
+.benefts-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.benefts-container .beneft-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: var(--text-gray);
+  margin: 1em;
+}
+
+.beneft-box .beneft-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+}
+
+.beneft-box .beneft-01 {
+  background-image: url(../img/sqr-1.jpg);
+}
+
+.beneft-box .beneft-02 {
+  background-image: url(../img/sqr-2.jpg);
+}
+
+.beneft-box .beneft-03 {
+  background-image: url(../img/sqr-3.jpg);
+}
+
+/* section location  */
+
+.section-location {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../img/hrz-1.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: var(--text-white);
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3em;
+}
+
+.address-container,
+.about-location {
+  max-width: 30%;
+}
+
+.address-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.address-container i {
+  font-size: 4em;
+  color: var(--primary-color);
+  margin-right: 0.5em;
+}
+
+.address-container .address-details {
+  font-size: 1.3em;
+}
+
+.about-location h3 {
+  font-size: 3em;
+  color: var(--primary-color);
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.about-location p {
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+/* section detalhes do evento  */
+
+.details-event {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.details-event .detail-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.detail-box img {
+  width: 50%;
+}
+
+.detail-box h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.detail-01 h3 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.detail-box .detail-description {
+  width: 100%;
+  padding-left: 2em;
+}
+
+.detail-box .detail-description ul {
+  list-style-position: inside;
+}
+
+.detail-box .detail-description ul li {
+  margin-bottom: 0.5em;
+}
+
+.detail-box .detail-description ul li:last-child {
+  font-weight: bold;
+}
+
+/* section call to action  */
+
+.cta {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('../img/hrz-1.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: var(--text-white);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 1.3em;
+}
+
+.cta .btn {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* footer  */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vh;
+  color: var(--secundary-color);
+}
+
+footer h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+footer p:nth-child(2) {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+footer span {
+  font-weight: bold;
+}
