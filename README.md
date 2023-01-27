@@ -1,6 +1,8 @@
-# Landpage sobre um evento de Decoração de interiores
+# Landing Page sobre um evento de Decoração de Interiores
 
 Este é um projeto de landing page criado com HTML e CSS sobre um evento de Decoração de Interiores. Nesta página, você encontrará informações sobre o evento, no vento voçê vera tendências atuais, inspirações de design e conselhos práticos para decorar sua casa.
+
+![InDecor](https://raw.githubusercontent.com/WerbethAraujo/inDecor-landing-page/main/img/home.png)
 
 # Como usar
 
