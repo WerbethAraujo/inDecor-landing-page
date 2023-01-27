@@ -14,7 +14,3 @@ Este é um projeto de landing page criado com HTML e CSS sobre um evento de Deco
 * Faça um fork do repositório
 * Crie uma nova branch para suas alterações
 * Faça um pull request para o branch principal
-
-# Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais informações.
